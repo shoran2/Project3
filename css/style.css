@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	background-color: #000000;
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+  	min-width: 1024px;
+	width: 100%;
+	height: auto;
+ 	position: fixed;
+  	top: 0;
+  	left: 0;
+  	color: #ffffff;
+}
+
+.main {
+	float: left;
+	width: 100%;
+}
+
+.combat-text {
+	float: left;
+	overflow: auto;
+	height: 500px;
+	width: 100%;
+	position: relative;
+}
